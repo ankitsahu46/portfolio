@@ -35,8 +35,8 @@ export default {
         }
       },
       animation: {
-        bubble: 'bubble 6s ease infinite',
-        bubbleB: 'bubble 6s ease infinite',
+        bubble: 'bubble 3s ease infinite',
+        bubbleB: 'bubble 3s ease infinite',
       },
       
     },
