@@ -1,4 +1,4 @@
-import { SocialMediaIcons } from "./"
+import { SocialMediaIcons } from "."
 
 function ImageBox() {
   return (

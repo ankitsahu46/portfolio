@@ -15,7 +15,11 @@
   scroll-behavior: smooth;
 }
 
-.txt-shadow {
-  text-shadow: -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000, 0.5px -0.5px 0 #000,
-    -0.5px -0.5px 0 #000;
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }

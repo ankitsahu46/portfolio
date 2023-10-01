@@ -38,7 +38,6 @@ export default {
         bubble: 'bubble 3s ease infinite',
         bubbleB: 'bubble 3s ease infinite',
       },
-      
     },
   },
   plugins: [],

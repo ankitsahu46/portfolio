@@ -1,9 +1,9 @@
-import { Home, About } from './';
+import { Home, About } from './pages';
 
 function Main() {
   return (
     <>
-      <main className="w-full max-h-[calc(100vh-56px)] overflow-y-auto p-2 pt-0 m-auto">
+      <main id='main' className="w-full max-w-full max-h-[calc(100vh-56px)] p-2 [&>*]:pt-16">
         <Home />
         <About />
       </main>
