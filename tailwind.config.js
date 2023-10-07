@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: '550px'
+      },
       borderRadius: {
         'imgBubble': '28% 72% 51% 49% / 50% 63% 37% 50%',
         'imgBubbleB': '0% 0% 51% 49% / 0% 0% 37% 50%',
