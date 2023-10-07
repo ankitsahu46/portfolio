@@ -6,6 +6,13 @@
   .font-outline-2 {
     -webkit-text-stroke: 0.5px #ded2f8;
   }
+  .one .two {
+    display: none;
+  }
+  .one:hover .two {
+    display: block;
+  }
+
 }
 
 * {

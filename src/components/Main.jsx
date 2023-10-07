@@ -1,4 +1,4 @@
-import { Home, About, Skills, Projects } from './pages';
+import { Home, About, Skills, Projects, Contact } from './pages';
 
 function Main() {
   return (
@@ -8,6 +8,7 @@ function Main() {
         <About />
         <Skills />
         <Projects />
+        <Contact />
       </main>
     </>
   )
