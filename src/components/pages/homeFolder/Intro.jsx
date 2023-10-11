@@ -22,8 +22,10 @@ function Intro() {
   return (
     <div className='w-full md:w-[50%] flex justify-center  items-start mt-16 md:mt-0 md:items-center md:justify-start min-h-[60px] '>
       <div>
+        <div className='animate-translateLeft'>
         <span className='text-[40px] md:text-[45px] lg:text-[60px] text-transparent font-outline-2 font-bold text-center '>Hello! I'm <span>Ankit</span></span>
-        <p className='font-bold text-base sm:text-lg md:text-xl xl:text-2xl'>I'm a <span ref={el} /></p>
+        </div>
+        <p className='font-bold text-base sm:text-lg md:text-xl xl:text-2xl animate-translateRight'>I'm a <span ref={el} /></p>
       </div>
     </div>
   )

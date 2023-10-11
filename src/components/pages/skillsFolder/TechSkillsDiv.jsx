@@ -1,6 +1,8 @@
 import { TechSkill } from "./"
 
 function TechSkillsDiv() {
+  
+
   return (
     <div className="w-full md:w-3/5 flex flex-col items-center justify-center">
       <h2 >Technical Skills</h2>

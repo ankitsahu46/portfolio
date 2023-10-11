@@ -1,11 +1,11 @@
-/* eslint-disable react/prop-types */
-function Nav({ navName, active, setActive }) {
-  
-  const nav = navName.toLowerCase();
 
+/* eslint-disable react/prop-types */
+function Nav({ navName, i, active, setActive }) {
+  const nav = navName.toLowerCase();
+  
   return (
     <div
-      className={`h-7 flex justify-center items-center `}
+      className={`h-7 flex justify-center items-center animate-translateDown animation-delay-${i}`}
       onClick={() =>  setActive(nav)}
     >
       <a href={`#${nav}`}
@@ -22,14 +22,14 @@ export default Nav
 
 
 
-// function Nav({ navName, active, setActive }) {
+// function Nav({ navName, i, active, setActive }) {
   
 //   const nav = navName.toLowerCase();
 //   const el = document.getElementById(nav);
 
 //   return (
 //     <div
-//       className={`h-7 flex justify-center items-center `}
+//       className={`h-7 flex justify-center items-center animate-translateDown animation-delay-${i}`}
 //       onClick={() => { setActive(nav); el.scrollIntoView();}}
 //     >
 //       <div 
