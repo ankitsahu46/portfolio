@@ -104,6 +104,7 @@ export default {
       animation: {
         bubble: 'bubble 3s ease infinite',
         // bubbleB: 'bubble 3s ease infinite',
+        appearSkill: 'appear 0.7s ease-in-out backwards',
         appear: 'appear 0.5s ease-in-out 0.5s backwards',
         appear2: 'appear2 0.7s ease-in-out 0.7s backwards',
         appear3: 'appear3 0.7s ease-in-out 1.2s backwards',

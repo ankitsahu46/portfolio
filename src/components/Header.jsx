@@ -1,26 +1,11 @@
-import { useEffect, useState } from "react";
+/* eslint-disable react/prop-types */
 import { Nav } from './';
 
-function Header() {
-  const [active, setActive] = useState('home');
+function Header({ active, setActive }) {
   let state = {
     active,
     setActive
   }
-
-  useEffect(() => {
-    var sections = document.querySelectorAll('section');
-
-    window.onscroll = () => {
-      sections.forEach((section) => {
-        const sectionTop = section.offsetTop;
-
-        if (window.scrollY >= sectionTop - 60) {
-          setActive(section.getAttribute("id"));
-        }
-      });
-    };
-  }, [])
 
   return (
     <>
