@@ -7,7 +7,7 @@ function ProfSkillsDiv() {
       <div className="mt-8 grid grid-cols-2 gap-x-14 gap-y-6 ">
         {
           [
-            ['Team Work', '86%'],
+            ['Team Work', '80%'],
             ['Self Motivated', '90%'],
             ['Communication', '75%'],
             ['Fast Learner', '70%'],

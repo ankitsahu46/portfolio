@@ -1,0 +1,16 @@
+[
+  ["HTML5", "src/assets/html5.svg"],
+  ["CSS3", "src/assets/css3.svg"],
+  ["JavaScript", "src/assets/javascript.svg"],
+  ["React.js", "src/assets/react.svg"],
+  ["Redux", "src/assets/redux.svg"],
+  ["Node.js", "src/assets/nodejs.svg"],
+  ["Express.js", "src/assets/expressjs.svg"],
+  ["MongoDB", "src/assets/mongodb.svg"],
+  ["Tailwind", "src/assets/tailwindcss.svg"],
+  ["Git", "src/assets/git.svg"],
+  ["Postman", "src/assets/postman.svg"],
+  ["ES6", "src/assets/es6.svg"],
+  ["Bootstrap", "src/assets/bootstrap.svg"],
+  ["C++", "src/assets/cpp.svg"]
+]
