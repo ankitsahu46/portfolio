@@ -1,5 +1,4 @@
 import { TechSkill } from "./";
-// import { techSkillsData } from '../../../constants';
 import { html5, css3, javascript, react, redux, nodejs, expressjs, mongodb, tailwindcss, git, postman, es6, bootstrap, cpp } from '../../../assets';
 
 function TechSkillsDiv() {

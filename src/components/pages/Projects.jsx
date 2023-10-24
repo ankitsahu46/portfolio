@@ -1,5 +1,5 @@
 import Project from "./projectFolder/Project";
-import { projectInfo } from '../../constants';
+import projectInfo from '../../constants/projectInfo.json';
 import { ImageHubImg, MusifyImg, SociofyImg } from '../../assets'
 
 function Projects() {
