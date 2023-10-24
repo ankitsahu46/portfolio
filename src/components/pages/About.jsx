@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import { workingMan } from '../../assets';
 
 function About() {
   return (
@@ -11,7 +12,7 @@ function About() {
         </div>
 
         <div className="w-full md:w-1/2 flex  justify-center items-center mt-16 md:mt-0">
-            <img className="w-[60%] rounded-lg" src="src/assets/Digital Marketing.gif" alt="WorkingStudent" />
+            <img className="w-[60%] rounded-lg" src={workingMan} alt="WorkingStudent" />
         </div>
       </section>
     </>

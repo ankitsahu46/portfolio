@@ -13,7 +13,7 @@ function Header({ active, setActive }) {
         <a href="#">
           <div className="font-bold text-3xl flex justify-center items-center animate-translateRight">
             <span>AN</span>
-            <span className="font-outline-white-2 text-transparent ">KIT</span>
+            <span className="font-outline-white-2 text-transparent">KIT</span>
           </div>
         </a>
         <nav className={`flex items-center justify-center font-medium [&>*:not(:first-child)]:ml-2 `}>
@@ -23,12 +23,6 @@ function Header({ active, setActive }) {
                 <Nav key={nav} navName={nav} i={i} {...state} />
               ))
           }
-          {/* <Nav key="Home" navName="Home" i={0} {...state} />
-          <Nav key="About" navName="About" i={1} {...state} />
-          <Nav key="Skills" navName="Skills" i={2} {...state} />
-          <Nav key="Projects" navName="Projects" i={3} {...state} />
-          <Nav key="Contact" navName="Contact" i={4} {...state} /> */}
-
         </nav>
       </header>
     </>

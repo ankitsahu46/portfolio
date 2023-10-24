@@ -34,17 +34,6 @@ export default {
             borderRadius: '29% 71% 57% 43% / 44% 62% 38% 56% '
           }
         },
-        // bubbleB: {
-        //   '0%, 100%': {
-        //     borderRadius: '0% 0% 54% 46% / 0% 0% 38% 52%'
-        //   },
-        //   '40%': {
-        //     borderRadius: '0% 0% 53% 47% / 0% 0% 43% 59%'
-        //   },
-        //   '70%': {
-        //     borderRadius: '0% 0% 57% 43% / 0% 0% 38% 56% '
-        //   }
-        // },
         appear: {
           '0%': {
             transform: 'scale(0)',
@@ -99,11 +88,9 @@ export default {
             transform: 'translateX(0px)'
           }
         }
-
       },
       animation: {
         bubble: 'bubble 3s ease infinite',
-        // bubbleB: 'bubble 3s ease infinite',
         appearSkill: 'appear 0.7s ease-in-out backwards',
         appear: 'appear 0.5s ease-in-out 0.5s backwards',
         appear2: 'appear2 0.7s ease-in-out 0.7s backwards',

@@ -27,3 +27,13 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+
+.percent80 {
+  background: conic-gradient(rgb(35, 182, 250) 80%, white 80%);
+}
+.percent90 {
+  background: conic-gradient(rgb(35, 182, 250) 90%, white 90%);
+}
+.percent75 {
+  background: conic-gradient(rgb(35, 182, 250) 75%, white 75%);
+}
