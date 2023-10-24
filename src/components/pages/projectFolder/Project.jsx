@@ -13,11 +13,11 @@ function Project({ i, img, ...props }) {
   return (
     <div id={`project${i}`} className={`proj flex flex-col md:flex-row justify-center items-center mt-16 font-medium [&>*]:flex-1 px-10 `}>
       {/* project image, url and live link/preview */}
-      <div className="w-4/5 h-auto flex justify-start  hover:scale-[0.98] transition-all  relative group items-stretch">
-        <img src={img} alt="project image" className={`rounded-lg ${animateProject[i] ? 'w-full' : 'w-1'} aspect-auto min-h-[170px] transition-all duration-700`} />
+      <div className="md:w-4/5 h-auto flex justify-start  hover:scale-[0.98] transition-all  relative group items-stretch">
+        <img src={img} alt="project image" className={`rounded-lg ${animateProject[i] ? 'w-full' : 'w-1'} aspect-auto transition-all duration-700`} />
 
         <div className=" absolute item bg-transparent w-full h-full">
-          <div className="opacity-0 group-hover:opacity-100 absolute w-[75px] h-8 right-2 top-2 border-[1px] border-gray-400  bg-white rounded-full cursor-pointer shadow-lg transition-all duration-500">
+          <div className="opacity-100 md:opacity-0 group-hover:opacity-100 absolute w-[75px] h-8 right-2 top-2 border-[1px] border-gray-400  bg-white rounded-full cursor-pointer shadow-lg transition-all duration-500">
             <a href={code} target='_black'>
               <img src={gitHub} alt="GitHub" className="bg-transparent p-1 -top-[1px] absolute hover:scale-[0.95]" />
             </a>
@@ -36,7 +36,7 @@ function Project({ i, img, ...props }) {
       </div>
 
       {/* project name and description */}
-      <div className="text-white flex flex-col text-start w-4/5 pt-3 md:pl-9 animate-translateUp transition-all">
+      <div className="text-white flex flex-col text-start md:w-4/5 pt-3 md:pl-9 animate-translateUp transition-all">
         <h1 className="text-2xl lg:text-3xl font-bold cursor-pointer">
           {name}
         </h1>

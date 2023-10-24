@@ -13,8 +13,12 @@ function Header({ active, setActive }) {
         <a href="#">
           <div className="font-bold text-3xl flex justify-center items-center animate-translateRight">
             <span>AN</span>
-            <span className="font-outline-white-2 text-transparent">KIT</span>
+            <span>
+              <span className='absolute text-[#e4dbf7] textShadow'>KIT</span>
+              <span className='relative bg-transparent text-[var(--blue)] scale-[0.995]'>KIT</span>
+            </span>
           </div>
+
         </a>
         <nav className={`flex items-center justify-center font-medium [&>*:not(:first-child)]:ml-2 `}>
           {
