@@ -12,7 +12,6 @@ import gitHub from './gitHub.svg';
 import gmail from './gmail.svg';
 import html5 from './html5.svg';
 import ImageHubImg from './ImageHubImg.png';
-import Instagram from './Instagram.png';
 import instagramIconBW from './instagramIconBW.svg';
 import javascript from './javascript.svg';
 import linkedinicon from './linkedinicon.png';
@@ -28,5 +27,6 @@ import redux from './redux.svg';
 import SociofyImg from './SociofyImg.png';
 import tailwindcss from './tailwindcss.svg';
 import x from './x.png';
+import resume from './ankitsahu_merndev_resume.pdf';
 
-export { ankit, ankitsahu, arrow, bootstrap, cpp, css3, workingMan, es6, expressjs, git, gitHub, gmail, html5, ImageHubImg, Instagram, instagramIconBW, javascript, linkedinicon, mail, mongodb, MusifyImg, nodejs, video, pdfIcon, postman, react, redux, SociofyImg, tailwindcss, x }
+export { ankit, ankitsahu, arrow, bootstrap, cpp, css3, workingMan, es6, expressjs, git, gitHub, gmail, html5, ImageHubImg, instagramIconBW, javascript, linkedinicon, mail, mongodb, MusifyImg, nodejs, video, pdfIcon, postman, react, redux, SociofyImg, tailwindcss, x, resume }

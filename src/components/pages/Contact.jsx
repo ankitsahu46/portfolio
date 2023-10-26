@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import FileSaver from "file-saver";
-import { pdfIcon, mail, gitHub, x, instagramIconBW } from '../../assets'
+import { pdfIcon, mail, gitHub, x, resume } from '../../assets'
 
 function Contact() {
   return (
@@ -15,7 +15,7 @@ function Contact() {
       </p>
 
       <div className="flex justify-center items-center mt-16 lg:justify-start">
-        <div onClick={() => { FileSaver.saveAs('src/assets/ankitsahu.png', 'AnkitSahu_resume.pdf'); console.log('success') }} className="flex items-center justify-center border border-white w-[80%] md:w-[30%] py-4 rounded-full hover:scale-[0.98] cursor-pointer transition-all">
+        <div onClick={() => { FileSaver.saveAs(resume, 'AnkitSahu_fullStackMernDev_resume.pdf'); console.log('success') }} className="flex items-center justify-center border border-white w-[80%] md:w-[30%] py-4 rounded-full hover:scale-[0.98] cursor-pointer transition-all">
           <img src={pdfIcon} alt="" className="w-[24px] h-[24px] bg-transparent invert" />
           <p className="text-white font-bold ml-2">Download Resume</p>
         </div>
